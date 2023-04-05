@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="description" content="Homework 3, bootstrap frameworks Design by Jayden Chen">
+
+  <title>ABC Toys</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">ABC Toys</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="products.html" class="nav-item nav-link active">Products</a>
+                        <a href="location.html" class="nav-item nav-link">Location</a>
+                        <a href="extra.html" class="nav-item nav-link">Extra</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+      </div>
+
+      <div class="container m-5 p-5">
+        <h1 class="text-uppercase text-center mt-5">Our Toys</h1>
+        <p class="lead text-center">Made for your children, their minds and creativity.</p>
+      </div>
+
+
+
+
+      <div class="m-4">
+        <div class="accordion row bg-light border" id="myAccordion">
+
+          <div class="accordion-item col-lg-4">
+              <h2 class="accordion-header" id="headingTwo">
+                  <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Wooden Cars</button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                  <div class="card-body bg-light">
+                      <img src="photos/Wooden-Vehicles.webp" class="img-fluid" alt="Wooded cars and helicopter on a stool">
+                      <p class="mt-4">This collection of vehicles have a minimalistic design. Made with smooth wood, children can safely play to their hearts content</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="accordion-item col-lg-4">
+            <h2 class="accordion-header" id="headingOne">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Building Blocks</button>									
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body bg-light">
+                    <img src="photos/Wooden-Blocks3.webp" class="img-fluid" alt="">
+                    <p class="mt-4">Wooden stackable pieces in forms of a variety of blocks. Minimalisitc designs that will help you children enhanse their creativity and motor skills.</p>
+                </div>
+            </div>
+          </div>
+
+          
+          <div class="accordion-item col-lg-4">
+              <h2 class="accordion-header" id="headingThree">
+                  <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">Stacking Rings</button>                     
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                  <div class="card-body">
+                    <img src="photos/Stacking-Rings2.webp" class="img-fluid" alt="Wooden rings stacke in a accending order">
+                      <p class="mt-4">Made with quality wood. A collection of diffrent size rings and a holder can be used by your children to imporve motor skills and critical thinkng.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+
+</html>
